@@ -21,7 +21,7 @@ function App() {
       }
   
       const data = await response.json();
-      setOutput(data.message);  // Display the message from the backend
+      setOutput(data.message);
     } catch (error) {
       setOutput(`An error occurred: ${error.message}`);
     }
